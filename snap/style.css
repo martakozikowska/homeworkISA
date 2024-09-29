@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Epilogue", sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 75px;
+  color: hsl(0, 0%, 8%);
+}
+
+p {
+  margin: 50px 0;
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  padding-right: 160px;
+  line-height: 27px;
+}
+
+.gridbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 2.5fr 0.25fr;
+  gap: 15px 15px;
+  grid-template-areas:
+    "nav login"
+    "text-button img"
+    "logotypes img";
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.login {
+  grid-area: login;
+}
+
+.text-button {
+  grid-area: text-button;
+}
+
+.logotypes {
+  grid-area: logotypes;
+}
+
+.img {
+  grid-area: img;
+}
+
+.nav {
+  font-size: 15px;
+  color: hsl(0, 0%, 41%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  padding-right: 150px;
+  cursor: pointer;
+}
+
+nav > div:first-child {
+  margin-top: 10px;
+}
+
+.login {
+  font-size: 15px;
+  color: hsl(0, 0%, 41%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav div:hover {
+  color: hsl(243, 76%, 80%);
+}
+
+.nav div:active {
+  color: hsl(243, 79%, 68%);
+}
+
+.register {
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px;
+  display: block;
+  color: hsl(0, 0%, 41%);
+  background-color: hsla(0, 0%, 100%, 0);
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 12px;
+  padding: 9px 18px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.text-button {
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.img {
+  height: 650px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logotypes {
+  padding: 40px 60px 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-size: 17px;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 8%);
+  border-radius: 15px;
+  padding: 17px 30px;
+  font-weight: 700;
+  cursor: pointer;
+  border-style: none;
+}
+
+button:hover {
+  background-color: hsl(243, 76%, 80%);
+}
+
+button:active {
+  background-color: hsl(243, 79%, 68%);
+}
+
+button:visited {
+  background-color: hsl(0, 0%, 32%);
+}

@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 30px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  line-height: 23px;
+}
+
+.perfume {
+  font-size: 11px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+}
+
+.card {
+  display: flex;
+  height: 420px;
+  width: 560px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.gabrielle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 35px 27px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.new-price {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+}
+
+.new-price:hover {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 52%, 19%);
+  font-size: 35px;
+}
+
+.old-price {
+  font-size: 12px;
+  color: hsl(228, 12%, 48%);
+  line-height: 23px;
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+
+.button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  padding: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: hsl(158, 52%, 19%);
+}
+
+button:active {
+  background-color: hsl(160, 80%, 54%);
+}
+
+button:visited {
+  background-color: hsl(156, 9%, 45%);
+}
+
+.trolley {
+  width: 15px;
+  height: 16px;
+  margin-right: 10px;
+}
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 12%, 48%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
